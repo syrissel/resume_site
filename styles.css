@@ -1,0 +1,40 @@
+html, body, section, div, img, header, footer, nav, ul, h6 {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Oswald', sans-serif;
+	color: #1167dc;
+}
+
+body {
+	background: #f7f3f0;
+}
+
+h2 {
+	position: fixed;
+	margin: auto;
+	
+}
+
+#container {
+	
+}
+
+nav {
+	background-color: #f4772b;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+ul {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 15px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #1167dc;
+	font-size: 1.5em;
+}
