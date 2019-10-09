@@ -1,5 +1,4 @@
-.table {
-	display: table;
+.menu {
 	margin: 0 auto;
 	padding-top: 4em;
 }
@@ -12,10 +11,13 @@ ul li {
 
 h2 {
   padding: 1.5em 0 0 0.2em;
-  font-size: 2.5em;
+  
 }
 
 nav {
-  width: 96rem;
-	height: 18vh;
+	height: 17vh;
+}
+
+.icon {
+  display: none;
 }

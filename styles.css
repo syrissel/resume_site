@@ -1,8 +1,10 @@
-html, body, section, div, img, header, footer, nav, ul, h6 {
+* {
 	margin: 0px;
 	padding: 0px;
-	font-family: 'Oswald', sans-serif;
-	color: #1167dc;
+	/* font-family: 'Oswald', sans-serif; */
+	/* font-family: 'Turret Road', cursive; */
+	font-family: 'Titillium Web', sans-serif;
+	color: #e8e800;
 }
 
 body {
@@ -10,24 +12,44 @@ body {
 }
 
 h2 {
-	position: fixed;
 	margin: auto;
-	
+	font-weight: bold;
+	font-size: 3em;
+	position: absolute;
 }
 
-#container {
-	
+.background {
+	position: relative;
+}
+
+.background::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url("img/cityscapejpg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: blur(5px);
+}
+
+.container {
+	position: relative
 }
 
 nav {
-	background-color: #f4772b;
+	background-color: #4b1d7b;
 	position: fixed;
-	top: 0;
-	left: 0;
+	width: 100%;
+}
+
+.menu {
+	padding-top: 6em;
 }
 
 ul {
-	min-width: 696px;
 	list-style: none;
 	padding-top: 15px;
 	text-align: center;
@@ -35,6 +57,9 @@ ul {
 
 a {
 	text-decoration: none;
-	color: #1167dc;
 	font-size: 1.5em;
+}
+
+#info {
+	padding: 10px 0  0 5px;
 }
