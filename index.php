@@ -12,6 +12,7 @@
 <!doctype html>
 <html>
 	<head>
+	<script type="text/javascript" src="styles.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="styles.css" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" media="(max-width:600px)" href="styles_small.css" />
@@ -27,20 +28,16 @@
 			<?php include'nav.php'; ?>
 
 			<div id="info">
-				<h2>TEST</h2>
+				<div class="paragraph">
+					<h3>Title</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque elit sit amet accumsan blandit. Nunc tempor sapien vitae odio ornare, et ullamcorper metus convallis. Fusce tristique euismod lectus non pellentesque. Suspendisse potenti. Suspendisse potenti. Ut quam diam, suscipit ac volutpat sed, efficitur a nisl. Morbi ut lacus nec ligula porttitor ullamcorper et eu metus. Nunc neque nunc, varius sit amet facilisis a, bibendum sit amet felis. Aliquam dolor nisl, varius a varius eu, rhoncus quis turpis. Quisque vel mauris dignissim, tincidunt velit id, vulputate odio. Fusce cursus felis erat, eget gravida turpis efficitur a. </p>
+				</div>
+				<div class="paragraph">
+					<h3 id="click_me">Title</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque elit sit amet accumsan blandit. Nunc tempor sapien vitae odio ornare, et ullamcorper metus convallis. Fusce tristique euismod lectus non pellentesque. Suspendisse potenti. Suspendisse potenti. Ut quam diam, suscipit ac volutpat sed, efficitur a nisl. Morbi ut lacus nec ligula porttitor ullamcorper et eu metus. Nunc neque nunc, varius sit amet facilisis a, bibendum sit amet felis. Aliquam dolor nisl, varius a varius eu, rhoncus quis turpis. Quisque vel mauris dignissim, tincidunt velit id, vulputate odio. Fusce cursus felis erat, eget gravida turpis efficitur a. </p>
+				</div>
 			</div>
 		</div>
 		</div>
-
-		<script>
-		function myFunction() {
-			var x = document.getElementById("menu_items");
-			if (x.style.display === "block") {
-			x.style.display = "none";
-			} else {
-			x.style.display = "block";
-			}
-		} 
-		</script>
 	</body>
 </html>

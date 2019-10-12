@@ -18,6 +18,10 @@ h2 {
 	position: absolute;
 }
 
+#menu_button {
+	z-index: 9999999;
+}
+
 .background {
 	position: relative;
 }
@@ -43,6 +47,7 @@ nav {
 	background-color: #4b1d7b;
 	position: fixed;
 	width: 100%;
+	z-index: 9999;
 }
 
 .menu {
@@ -61,5 +66,11 @@ a {
 }
 
 #info {
-	padding: 10px 0  0 5px;
+	padding: 8.5em 0  0 0.8em;
+	position: relative;
+}
+
+.paragraph {
+	background: black;
+	margin: 1.5em 0;
 }

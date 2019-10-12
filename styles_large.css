@@ -18,6 +18,6 @@ nav {
 	height: 17vh;
 }
 
-.icon {
+#menu_button {
   display: none;
 }
